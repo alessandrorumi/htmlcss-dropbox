@@ -56,7 +56,8 @@ section {
 .teams h2,
 .teams #scopri {
   width: 58vw;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Stile Header */
@@ -169,6 +170,10 @@ header ul {
 
 /* Stile "Team che utilizzano Dropbox Business" */
 
+.teams {
+  margin-bottom: 0;
+}
+
 .teams-container {
   display: flex;
   margin-top: 80px;
@@ -254,4 +259,31 @@ header ul {
 
 .right > .bottom-right  {
   background-color: #ffd830;
+}
+
+/* Stile "Porta Dropbox Business nella tua azienda" */
+
+.dropbox {
+  margin-top: 0;
+}
+
+.dropbox-container {
+  height: 300px;
+  width: 100%;
+  background-color: #b4d0e7;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.try h2 {
+  color: #61082b;
+}
+
+.try .container-left {
+  width: 30%;
+}
+
+.try .container-right {
+  width: 20%;
 }
