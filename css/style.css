@@ -144,3 +144,19 @@ header ul {
 .container-right {
   width: 40%;
 }
+
+/* Stile Operazioni con Dropbox Business */
+
+.operations-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc((100% / 3) - 40px);
+  margin: 10px 20px;
+}
+
+.card img{
+  width: 100%;
+}
