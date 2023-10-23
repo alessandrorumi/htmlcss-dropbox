@@ -126,3 +126,21 @@ header ul {
 .enterprise-left {
   width: 65%;
 }
+
+/* Stile Trova il tuo partner */
+
+.partner-container {
+  display: flex;
+}
+
+.container-left {
+  width: 60%;
+}
+
+.container-left img {
+  width: 100%;
+}
+
+.container-right {
+  width: 40%;
+}
