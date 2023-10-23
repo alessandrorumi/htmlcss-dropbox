@@ -1,3 +1,5 @@
+/* Stili Generali */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +8,14 @@
 
 :root {
   font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* DEBUG */
+  height: 60px;
+  border: 1px solid black;
 }
 
 ul {
@@ -27,15 +37,24 @@ h1 {
   font-weight: 800;
 }
 
-/* Stile Header */
-
-header {
-  display: flex;
-  justify-content: space-between;
-  /* DEBUG */
-  height: 60px;
-  border: 1px solid black;
+h2 {
+  font-size: 35px;
+  font-weight: 700;
 }
+
+main {
+  width: 58vw;
+  margin: 0 auto;
+  /* DEBUG */
+  height: 750px;
+  font-size: 12px;
+}
+
+section {
+  margin: 50px 0;
+}
+
+/* Stile Header */
 
 .header-left, .header-right
  {
@@ -57,7 +76,7 @@ header ul {
 }
 
 .jumbotron-container {
-  width: 60vw;
+  width: 65vw;
   margin: 0 auto;
 }
 
@@ -73,10 +92,37 @@ header ul {
   width: 100%;
 }
 
-/* Stile Main */
-main {
+/* Stile Piani Dropbox */
+
+.plans-in-columns {
+  display: flex;
+}
+
+.plans-in-columns > section {
   /* DEBUG */
-  width: 70vw;
-  margin: 0 auto;
-  height: 750px;
+  height: 500px;
+  border: 1px solid grey;
+  width: 100%;
+  margin-right: 40px;
+}
+
+.number-of-user {
+  border: 1px solid black;
+}
+
+.enterptise-team {
+  width: calc(58vw - 40px);
+  margin-top: 0px;
+  /* DEBUG */
+  height: 200px;
+  border: 1px solid black;
+}
+
+.enterprise-top-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.enterprise-left {
+  width: 65%;
 }
