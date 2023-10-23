@@ -5,6 +5,78 @@
 }
 
 :root {
-  font-family: ;
-  
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  padding: 6px 10px;
+  border: none;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 800;
+}
+
+/* Stile Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* DEBUG */
+  height: 60px;
+  border: 1px solid black;
+}
+
+.header-left, .header-right
+ {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+}
+
+/* Stile Jumbotron */
+
+.jumbotron {
+  width: 100vw;
+  margin: 0 auto;
+  background-color: #b4d0e7;
+}
+
+.jumbotron-container {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.jumbo-content {
+  display: flex;
+}
+
+.jumbo-left {
+  width: 60%;
+}
+
+.jumbo-right img {
+  width: 100%;
+}
+
+/* Stile Main */
+main {
+  /* DEBUG */
+  width: 70vw;
+  margin: 0 auto;
+  height: 750px;
 }
