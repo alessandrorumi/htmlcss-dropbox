@@ -43,15 +43,20 @@ h2 {
 }
 
 main {
-  width: 58vw;
-  margin: 0 auto;
-  /* DEBUG */
-  height: 750px;
   font-size: 12px;
 }
 
 section {
-  margin: 50px 0;
+  margin: 100px 0;
+}
+
+.plans,
+.partner,
+.dropbox-operations,
+.teams h2,
+.teams #scopri {
+  width: 58vw;
+  margin: 0 auto;
 }
 
 /* Stile Header */
@@ -92,7 +97,8 @@ header ul {
   width: 100%;
 }
 
-/* Stile Piani Dropbox */
+/* Stile "Piani Dropbox" */
+
 
 .plans-in-columns {
   display: flex;
@@ -127,7 +133,7 @@ header ul {
   width: 65%;
 }
 
-/* Stile Trova il tuo partner */
+/* Stile "Trova il tuo partner" */
 
 .partner-container {
   display: flex;
@@ -145,7 +151,7 @@ header ul {
   width: 40%;
 }
 
-/* Stile Operazioni con Dropbox Business */
+/* Stile "Operazioni con Dropbox Business" */
 
 .operations-cards {
   display: flex;
@@ -159,4 +165,93 @@ header ul {
 
 .card img{
   width: 100%;
+}
+
+/* Stile "Team che utilizzano Dropbox Business" */
+
+.teams-container {
+  display: flex;
+  margin-top: 80px;
+  /* DEBUG */
+  height: 500px;
+}
+
+.teams-container > div {
+  width: calc(100vw / 3);
+}
+
+.teams.left, .teams.right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.teams.left > div, .teams.right > div {
+  width: calc(100% / 2);
+  position: relative;
+}
+
+.teams img {
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+/* img a sinistra */
+
+.left > .top-left  {
+  background-color: #a2d39b;
+}
+
+.left > .top-right {
+  background-color: #61082b;
+}
+
+.left > .bottom-left {
+  background-color: #0093ce;
+}
+
+.left > .bottom-right {
+  background-color: #ff1c1c;
+}
+
+/* img al centro */
+
+.middle {
+  background-color: whitesmoke;
+}
+
+.designit {
+  position: relative;
+  height: 200px;
+}
+
+.designit-content {
+  padding: 0 30px;
+}
+
+.middle img {
+  width: 35%;
+  position: absolute;
+  top: 60px;
+  left: 120px;
+}
+
+/* img a destra */
+
+.right > .top-left  {
+  background-color: #d5001f;
+}
+
+.right > .top-right  {
+  background-color: #b4d0e7;
+}
+
+.right > .bottom-left  {
+  background-color: #0d2481;
+}
+
+.right > .bottom-right  {
+  background-color: #ffd830;
 }
