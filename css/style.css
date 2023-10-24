@@ -31,6 +31,7 @@ button {
 
 button:hover {
   cursor: pointer;
+  background-color: #1135c2;
 }
 
 h2 {
@@ -115,7 +116,7 @@ header a {
   min-width: 150px;
   border: 1px solid lightgray;
   z-index: 100;
-  margin-top: 39px;
+  margin-top: 21px;
 }
 
 .dropdown-content > div {
@@ -298,6 +299,10 @@ hr {
   color: grey;
 }
 
+.partner button:hover {
+  background-color: rgb(230, 230, 230);
+}
+
 /* Stile "Operazioni con Dropbox Business" */
 
 .operations-cards {
@@ -367,6 +372,7 @@ hr {
 
 .left > .top-left  {
   background-color: #a2d39b;
+  border: 10px solid #d6ecd3;
 }
 
 .left > .top-right {
@@ -462,6 +468,10 @@ hr {
   color: grey;
 }
 
+.trial button:hover {
+  background-color: rgb(230, 230, 230);
+}
+
 /* Stile FAQ */
 
 .faq h2 {
@@ -554,6 +564,10 @@ footer li {
 footer li:hover {
   text-decoration: underline white;
   cursor: pointer;
+}
+
+footer  a {
+  color: grey;
 }
 
 footer i {
