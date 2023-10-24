@@ -28,6 +28,10 @@ button {
   color: white;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 h2 {
   font-size: 35px;
   font-weight: 700;
@@ -64,16 +68,26 @@ section {
 /* Stile Header */
 
 header {
+  position: fixed;
+  width: calc(100% - 20px);
+  background-color: white;
+  top: 0;
+  z-index: 200;
   display: flex;
   justify-content: space-between;
   height: 60px;
   margin: 0 10px;
 }
+
 .header-left, .header-right
  {
   height: 100%;
   display: flex;
   align-items: center;
+}
+
+.header-logo:hover {
+  cursor: pointer;
 }
 
 header ul {
@@ -84,6 +98,40 @@ header li {
   color: grey;
   font-size: 12px;
   margin: 0 20px;
+}
+
+header a {
+  padding: 19px 0;
+  position: relative;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  border: 1px solid lightgray;
+  z-index: 100;
+  margin-top: 21px;
+}
+
+.dropdown-content > div {
+  margin: 5px 0;
+  padding: 10px 10px;
+  font-size: 12px;
+}
+
+.dropdown-content > div:hover {
+  background-color: rgb(225, 225, 225);
+  cursor: pointer;
+}
+
+header a:hover {
+  border-bottom: 3px solid black;
 }
 
 /* Stile Jumbotron */
@@ -98,7 +146,7 @@ h1 {
 
 .jumbotron {
   width: 100vw;
-  margin: 0 auto;
+  margin: 60px auto 0 auto;
   background-color: #b4d0e7;
 }
 
@@ -122,6 +170,7 @@ h1 {
 
 .jumbo-right img {
   width: 100%;
+  margin-bottom: -60px;
 }
 
 .jumbotron i {
