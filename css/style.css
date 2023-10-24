@@ -69,14 +69,14 @@ section {
 
 header {
   position: fixed;
-  width: calc(100% - 20px);
+  width: 100%;
   background-color: white;
   top: 0;
   z-index: 200;
   display: flex;
   justify-content: space-between;
   height: 60px;
-  margin: 0 10px;
+  padding: 0 10px;
 }
 
 .header-left, .header-right
@@ -184,6 +184,11 @@ h1 {
 }
 
 /* Stile "Piani Dropbox" */
+
+.plans {
+  margin-top: 45px;
+  padding-top: 80px;
+}
 
 .plans-in-columns {
   display: flex;
@@ -462,6 +467,12 @@ hr {
   text-align: center;
 }
 
+.trial button {
+  background-color: white;
+  border: 1px solid grey;
+  color: grey;
+}
+
 /* Stile FAQ */
 
 .faq h2 {
@@ -470,16 +481,42 @@ hr {
 
 .faq li {
   padding: 30px 25px 30px 0;
-  display: block;
   border-top: 1px solid grey;
   font-weight: 700;
   color: black;
-  display: flex;
-  justify-content: space-between;
 }
 
 .faq li:last-child {
   border-bottom: 1px solid grey;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+}
+
+li:hover .dropdown-content {
+  display: block;
+}
+
+.faq .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  max-width: 50vw;
+  border: none;
+  z-index: 100;
+}
+
+.faq p {
+  font-weight: 400;
+  font-size: 13px;
+  color: gray;
+  padding: 20px 20px 20px 0;
+}
+
+.faq li:hover {
+  cursor: pointer;
 }
 
 /* Stile Footer */
