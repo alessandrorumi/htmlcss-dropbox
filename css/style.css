@@ -508,11 +508,23 @@ li:hover .dropdown-content {
   font-weight: 400;
   font-size: 13px;
   color: gray;
-  padding: 0 200px 20px 0;
+  padding-right: 150px;
 }
 
 .faq li:hover {
   cursor: pointer;
+}
+
+.fa-chevron-up {
+  display: none;
+}
+
+.faq li:hover .fa-chevron-up {
+  display: inline-block;
+}
+
+.faq li:hover .fa-chevron-down {
+  display: none;
 }
 
 /* Stile Footer */
