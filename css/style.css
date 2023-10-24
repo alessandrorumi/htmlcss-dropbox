@@ -79,9 +79,7 @@ header {
   padding: 0 10px;
 }
 
-.header-left, .header-right
- {
-  height: 100%;
+.header-left, .header-right {
   display: flex;
   align-items: center;
 }
@@ -195,9 +193,7 @@ h1 {
 }
 
 .plans-in-columns > section {
-  height: 900px;
   border: 1px solid grey;
-  width: 100%;
   margin-right: 40px;
   margin-top: 40px;
 }
@@ -253,8 +249,6 @@ section .enterptise-team {
   width: calc(58vw - 40px);
   margin-top: 40px;
   border: 1px solid grey;
-  /* DEBUG */
-  height: 250px;
 }
 
 .enterprise-left :nth-child(2) {
@@ -270,11 +264,6 @@ hr {
 
 .highlights {
   margin: 45px 0;
-}
-
-.enterprise-top-section {
-  display: flex;
-  justify-content: space-between;
 }
 
 .enterprise-left {
@@ -450,7 +439,6 @@ hr {
 .dropbox-container {
   height: 350px;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
 }
 
