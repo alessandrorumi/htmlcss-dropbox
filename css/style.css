@@ -10,6 +10,7 @@
 :root {
   font-family: 'Open Sans', sans-serif;
   color: rgb(96, 96, 96);
+  scroll-behavior: smooth;
 }
 
 ul {
