@@ -114,7 +114,7 @@ header a {
   min-width: 150px;
   border: 1px solid lightgray;
   z-index: 100;
-  margin-top: 21px;
+  margin-top: 39px;
 }
 
 .dropdown-content > div {
@@ -464,7 +464,7 @@ hr {
 /* Stile FAQ */
 
 .faq h2 {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .faq li {
@@ -474,13 +474,21 @@ hr {
   color: black;
 }
 
+.faq i {
+  position: absolute;
+  right: 5px;
+}
+
 .faq li:last-child {
   border-bottom: 1px solid grey;
 }
 
 .dropdown {
-  display: flex;
-  justify-content: space-between;
+  position: relative;
+}
+
+.dropdown-title {
+  display: inline-block;
 }
 
 li:hover .dropdown-content {
@@ -489,9 +497,9 @@ li:hover .dropdown-content {
 
 .faq .dropdown-content {
   display: none;
-  position: absolute;
+  position: relative;
   background-color: white;
-  max-width: 50vw;
+  max-width: 58vw;
   border: none;
   z-index: 100;
 }
@@ -500,7 +508,7 @@ li:hover .dropdown-content {
   font-weight: 400;
   font-size: 13px;
   color: gray;
-  padding: 20px 20px 20px 0;
+  padding: 0 200px 20px 0;
 }
 
 .faq li:hover {
