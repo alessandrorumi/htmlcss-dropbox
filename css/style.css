@@ -190,6 +190,11 @@ h1 {
   padding-top: 80px;
 }
 
+.radio {
+  margin-right: 25px;
+  display: inline-block;
+}
+
 .plans-in-columns {
   display: flex;
 }
@@ -354,6 +359,7 @@ hr {
 .teams.left > div, .teams.right > div {
   width: calc(100% / 2);
   position: relative;
+  aspect-ratio: 1 / 1;
 }
 
 .teams img {
