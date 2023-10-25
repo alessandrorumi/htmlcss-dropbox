@@ -362,6 +362,10 @@ hr {
   aspect-ratio: 1 / 1;
 }
 
+.teams.left > div:hover, .teams.right > div:hover {
+  cursor: pointer;
+}
+
 .teams img {
   width: 45%;
   position: absolute;
@@ -379,6 +383,9 @@ hr {
 
 .left > .top-left  {
   background-color: #a2d39b;
+}
+
+.left > .top-left:hover {
   border: 10px solid #d6ecd3;
 }
 
@@ -386,12 +393,24 @@ hr {
   background-color: #61082b;
 }
 
+.left > .top-right:hover {
+  border: 10px solid #b10f4e;
+}
+
 .left > .bottom-left {
   background-color: #0093ce;
 }
 
+.left > .bottom-left:hover {
+  border: 10px solid #40c8ff;
+}
+
 .left > .bottom-right {
   background-color: #ff1c1c;
+}
+
+.left > .bottom-right:hover {
+  border: 10px solid #ff4040;
 }
 
 /* img al centro */
@@ -431,16 +450,32 @@ hr {
   background-color: #d5001f;
 }
 
+.right > .top-left:hover {
+  border: 10px solid #ff405c;
+}
+
 .right > .top-right  {
   background-color: #b4d0e7;
+}
+
+.right > .top-right:hover {
+  border: 10px solid #cfe1f0;
 }
 
 .right > .bottom-left  {
   background-color: #0d2481;
 }
 
+.right > .bottom-left:hover {
+  border: 10px solid #5170ed;
+}
+
 .right > .bottom-right  {
   background-color: #ffd830;
+}
+
+.right > .bottom-right:hover {
+  border: 10px solid #fff3bf;
 }
 
 /* Stile "Porta Dropbox Business nella tua azienda" */
